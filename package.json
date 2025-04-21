@@ -1,6 +1,6 @@
 {
   "name": "higher-edu-morocco",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Typed dataset & helpers for Moroccan universities and grandes écoles",
   "type": "module",
   "main": "./dist/index.cjs",
