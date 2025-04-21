@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* Node‑style ESM */
+    "module": "NodeNext",          // <- satisfies the first error
+    "moduleResolution": "NodeNext",
+
+    /* Modern JS output */
+    "target": "ES2022",
+
+    /* Strictness & QoL */
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    /* Paths for tsup */
+    "rootDir": "src",
+    "outDir": "dist",
+
+    /* Declarations (tsup sets emitDeclarationOnly=true internally) */
+    "declaration": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
