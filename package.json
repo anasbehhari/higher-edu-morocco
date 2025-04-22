@@ -1,6 +1,6 @@
 {
   "name": "higher-edu-morocco",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typed dataset & helpers for Moroccan universities and grandes écoles",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -18,7 +18,7 @@
     "dataset"
   ],
   "license": "MIT",
-  "author": "Anas Behhari <anas@example.com>",
+  "author": "Anas Behhari <an.behhari@outlook.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anasbehhari/higher-edu-morocco.git"
