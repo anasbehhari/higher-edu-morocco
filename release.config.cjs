@@ -8,6 +8,7 @@ module.exports = {
   branches: ["main"],
   repositoryUrl: "https://github.com/anasbehhari/higher-edu-morocco",
   tagFormat: "v${version}",
+  initialVersion: "1.0.1",
   plugins: [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
